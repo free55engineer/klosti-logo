@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja"> <!-- 日本語の言語設定 -->
+<head>
+  <meta charset="UTF-8"> <!-- 文字エンコーディングをUTF-8に設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- レスポンシブデザイン対応 -->
+  <title>クロスティネット株式会社</title> <!-- ページタイトル -->
+  <style>
+    body {
+      margin: 0; /* ページ全体の余白をなくす */
+      background: white; /* 背景色を白に設定 */
+      display: flex; /* フレックスボックスで配置 */
+      justify-content: center; /* 水平方向に中央揃え */
+      align-items: center; /* 垂直方向に中央揃え */
+      height: 100vh; /* ビューポートの高さ全体を使用 */
+    }
+    svg {
+      width: 100vw; /* ビューポートの幅全体を使用 */
+      height: 100vh; /* ビューポートの高さ全体を使用 */
+    }
+  </style>
+</head>
+<body>
+  <!-- SVG要素でテキストを描画 -->
+  <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+    <text x="320" y="180" 
+          text-anchor="middle" 
+          dominant-baseline="middle" 
+          font-family="sans-serif" 
+          font-size="48" 
+          fill="black">
+      クロスティネット株式会社 <!-- 表示するテキスト -->
+    </text>
+  </svg>
+</body>
+</html>
